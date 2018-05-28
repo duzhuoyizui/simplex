@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 .index h2 {
   font-size: 22px;
   margin: 20px 0 18px;
+  border: none;
 }
 
 .index ul {
@@ -42,9 +43,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
-  font-size: 24px;
-  margin: 20px 0 18px;
   color: #333;
+}
+
+h1 {
+  margin: 20px 0 18px;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin: 20px 0 15px;
+  border-bottom: 1px dashed #e8e8e8;
 }
 
 h3 {
@@ -96,7 +107,7 @@ code {
 }
 
 blockquote {
-  padding: 0px 18px;
+  padding: 0px 15px;
   margin: 15px 0;
   border-left: 2px solid rgba(40, 50, 60, 0.85);
   overflow: auto;
@@ -104,9 +115,12 @@ blockquote {
 }
 
 blockquote p {
-  margin-bottom: 15px;
-  font-size: 15px;
+  margin: 0 0 10px 0;
   color: #8a8a8a;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
 }
 
 img {
