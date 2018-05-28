@@ -1,8 +1,8 @@
 
 # simplex
 
-a [simiki](http://simiki.org/) theme, based on simple2.
+a [simiki](http://simiki.org/) theme .
 
 ## example
 
-+ [http://django.zhangjiee.com/](http://django.zhangjiee.com/)
++ <http://wiki.zhangjiee.com/>
