@@ -146,6 +146,21 @@ code {
   color: #333;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 90%;
+  color: #666;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px 10px;
+}
+
 /* Table of Contents */
 .toc {
   margin: 15px 0 0;
