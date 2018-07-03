@@ -151,6 +151,7 @@ table {
   width: 100%;
   font-size: 90%;
   color: #666;
+  margin: 16px 0;
 }
 
 table, th, td {
