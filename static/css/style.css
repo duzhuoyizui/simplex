@@ -10,6 +10,10 @@ p, pre, ul, ol {
   margin-bottom: 16px;
 }
 
+ul li ul {
+  margin: 5px 0;
+}
+
 .container {
   padding: 16px 16px;
 }
